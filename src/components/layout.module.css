@@ -1,5 +1,7 @@
+
+
 .container {
-    margin: auto;
+    
     
     font-family: sans-serif;
   }
@@ -8,7 +10,7 @@
     background-color: #819cdb;
     color: #fff;
     text-align: left;
-    padding: 1em;
+   
 }
 
 .footer {
@@ -24,15 +26,17 @@
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     background-color: #819cdb;
     padding: 0.5em;
+    text-align: center;
 }
 
 nav a {
     color: #fff;
+    vertical-align: middle;
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: 1em 3em;
     margin: 0 0.5em;
     border-radius: 4px;
     transition: background-color 0.3s;

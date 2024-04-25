@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import clark from "../images/clark.jpeg"
 import { 
   container,
   header,
@@ -9,12 +10,10 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <div className={header}>
-        
-        <Link to="/">
-        <img src="clark.jpeg" width="150" height="180"/>
-        </Link>
         <nav>
-          
+          <Link to="/">
+          <img src={clark} alt="Clark" height = "100px" />
+          </Link>
           <Link to="/about">About</Link>
           <Link to="/curr">Current Edition</Link>
           <Link to="/prev">Previous Editions</Link>
