@@ -5,11 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="">
-      <div className="background-image" />
-      <StaticImage
-        alt="Catalyst logo"
-        src='../images/clark.jpeg'
-        />
+      
     </Layout>
   )
 }
