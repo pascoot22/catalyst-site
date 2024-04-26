@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import Summer2023 from "../images/Summer2023.pdf"
+import Summer2023 from "../../static/summer2023.pdf"
 
 const Current = () => {
   return (
