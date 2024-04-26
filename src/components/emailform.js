@@ -14,7 +14,6 @@ function EmailForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you can add logic to send the email using emailBody and senderEmail variables
     const emailContent = `Sender's Email: ${senderEmail}\n\n${emailBody}`;
     alert(`Sending email:\n\n${emailContent}`);
   };

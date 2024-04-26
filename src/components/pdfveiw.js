@@ -16,13 +16,13 @@ const PdfList = ({ pdfs, onPdfSelect }) => {
   return (
     <div>
       {pdfs.map((pdf, index) => (
-        <PdfButton key={index} pdfUrl={pdf.url} onClick={onPdfSelect} />
+        <PdfButton key={index} pdfUrl={pdf.url} onClick={onPdfSelect}  />
       ))}
     </div>
   );
 };
 
-const PdfViewerWithButtons = ({ pdfs }) => {
+const PdfViewerWithButtons = ({ pdfs}) => {
   const [selectedPdf, setSelectedPdf] = useState(null);
 
   const handlePdfSelect = (pdfUrl) => {
